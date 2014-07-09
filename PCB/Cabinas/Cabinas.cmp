@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 01/07/2014 15:20:23
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 09/07/2014 11:26:07
 
 BeginCmp
 TimeStamp = /538DF7F4;
@@ -53,7 +53,7 @@ BeginCmp
 TimeStamp = /53B30504;
 Reference = C7;
 ValeurCmp = 470uF;
-IdModule  = C1V5;
+IdModule  = CAP_8_3.5;
 EndCmp
 
 BeginCmp
@@ -89,6 +89,13 @@ TimeStamp = /53B370A2;
 Reference = C12;
 ValeurCmp = 1uF;
 IdModule  = C1V5;
+EndCmp
+
+BeginCmp
+TimeStamp = /53BD6998;
+Reference = C13;
+ValeurCmp = 470uF;
+IdModule  = CAP_8_3.5;
 EndCmp
 
 BeginCmp
@@ -264,6 +271,13 @@ TimeStamp = /53B37093;
 Reference = ELEC1;
 ValeurCmp = ELECTRET_MIC_SUP;
 IdModule  = pin_array_3x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /53BD775B;
+Reference = GS1;
+ValeurCmp = GS3;
+IdModule  = GS3;
 EndCmp
 
 BeginCmp
