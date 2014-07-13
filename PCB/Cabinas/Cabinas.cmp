@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 10/07/2014 12:11:51
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 13/07/2014 09:20:14
 
 BeginCmp
 TimeStamp = /538DF7F4;
@@ -789,6 +789,20 @@ TimeStamp = /53B2DE7E;
 Reference = U3;
 ValeurCmp = TL072;
 IdModule  = DIP-8__300_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C2971D;
+Reference = U4;
+ValeurCmp = 74HC595;
+IdModule  = DIP-16__300;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C2972A;
+Reference = U5;
+ValeurCmp = 74HC595;
+IdModule  = DIP-16__300;
 EndCmp
 
 EndListe
