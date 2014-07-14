@@ -1,4 +1,4 @@
-update=13/07/2014 09:54:53
+update=02/07/2014 08:28:43
 version=1
 last_client=eeschema
 [general]
@@ -12,10 +12,10 @@ EquName1=devcms
 version=1
 LastNetListRead=Cabinas.net
 UseCmpFile=1
-PadDrill=0.800000000000
-PadDrillOvalY=0.800000000000
-PadSizeH=1.200000000000
-PadSizeV=1.200000000000
+PadDrill=3.500000000000
+PadDrillOvalY=3.500000000000
+PadSizeH=3.500000000000
+PadSizeV=3.500000000000
 PcbTextSizeV=1.500000000000
 PcbTextSizeH=1.500000000000
 PcbTextThickness=0.300000000000
@@ -54,7 +54,6 @@ LibName22=D:/GitHub/KiCad_Libraries/btm
 LibName23=D:/GitHub/KiCad_Libraries/Jacks
 LibName24=D:/GitHub/KiCad_Libraries/Switches
 LibName25=D:/GitHub/KiCad_Libraries/Screws
-LibName26=D:/GitHub/KiCad_Libraries/CAP_POL
 [eeschema]
 version=1
 LibDir=
