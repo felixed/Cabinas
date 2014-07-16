@@ -1,0 +1,38 @@
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 16/07/2014 10:49:35
+
+BeginCmp
+TimeStamp = /53C6A570;
+Reference = KEY1;
+ValeurCmp = KEYPAD_4X4;
+IdModule  = PinArray_8x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C692AD;
+Reference = MCU1;
+ValeurCmp = PRO_MINI_2;
+IdModule  = ProMini2;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C692BC;
+Reference = P1;
+ValeurCmp = DIN_5;
+IdModule  = DIN5;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C6A5D1;
+Reference = R1;
+ValeurCmp = 4.7k;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C6A5C4;
+Reference = R2;
+ValeurCmp = 4.7k;
+IdModule  = R3;
+EndCmp
+
+EndListe

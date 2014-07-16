@@ -1,0 +1,213 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:MCU
+LIBS:Misc
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "16 jul 2014"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L PRO_MINI_2 MCU?
+U 1 1 53C692AD
+P 4800 4100
+F 0 "MCU?" H 4800 4100 60  0000 C CNN
+F 1 "PRO_MINI_2" H 4850 4000 60  0000 C CNN
+F 2 "~" H 4800 4100 60  0000 C CNN
+F 3 "~" H 4800 4100 60  0000 C CNN
+	1    4800 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIN_5 P?
+U 1 1 53C692BC
+P 8600 3350
+F 0 "P?" H 8600 3350 70  0000 C CNN
+F 1 "DIN_5" H 8600 3200 70  0000 C CNN
+F 2 "" H 8600 3350 60  0000 C CNN
+F 3 "" H 8600 3350 60  0000 C CNN
+	1    8600 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L KEYPAD_4X4 KEY?
+U 1 1 53C6A570
+P 4750 1800
+F 0 "KEY?" H 4275 2450 60  0000 C CNN
+F 1 "KEYPAD_4X4" H 4750 2350 60  0000 C CNN
+F 2 "" H 4800 1750 60  0000 C CNN
+F 3 "" H 4800 1750 60  0000 C CNN
+	1    4750 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9200 3150 9400 3150
+Wire Wire Line
+	9400 3150 9400 2900
+$Comp
+L +5V #PWR?
+U 1 1 53C6A582
+P 9400 2900
+F 0 "#PWR?" H 9400 2990 20  0001 C CNN
+F 1 "+5V" H 9400 2990 30  0000 C CNN
+F 2 "~" H 9400 2900 60  0000 C CNN
+F 3 "~" H 9400 2900 60  0000 C CNN
+	1    9400 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8600 2750 8600 2550
+Wire Wire Line
+	8600 2550 8800 2550
+Wire Wire Line
+	8800 2550 8800 2650
+$Comp
+L GND #PWR?
+U 1 1 53C6A596
+P 8800 2650
+F 0 "#PWR?" H 8800 2650 30  0001 C CNN
+F 1 "GND" H 8800 2580 30  0001 C CNN
+F 2 "~" H 8800 2650 60  0000 C CNN
+F 3 "~" H 8800 2650 60  0000 C CNN
+	1    8800 2650
+	1    0    0    -1  
+$EndComp
+NoConn ~ 9200 3350
+Text GLabel 7550 3150 0    60   BiDi ~ 0
+I2CSDA
+Wire Wire Line
+	7550 3150 8000 3150
+Text GLabel 7550 3350 0    60   BiDi ~ 0
+I2CSCL
+Wire Wire Line
+	7550 3350 8000 3350
+$Comp
+L R R?
+U 1 1 53C6A5C4
+P 7900 2700
+F 0 "R?" V 7980 2700 40  0000 C CNN
+F 1 "4.7k" V 7907 2701 40  0000 C CNN
+F 2 "~" V 7830 2700 30  0000 C CNN
+F 3 "~" H 7900 2700 30  0000 C CNN
+	1    7900 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 53C6A5D1
+P 7700 2700
+F 0 "R?" V 7780 2700 40  0000 C CNN
+F 1 "4.7k" V 7707 2701 40  0000 C CNN
+F 2 "~" V 7630 2700 30  0000 C CNN
+F 3 "~" H 7700 2700 30  0000 C CNN
+	1    7700 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7700 2950 7700 3350
+Connection ~ 7700 3350
+Wire Wire Line
+	7900 2950 7900 3150
+Connection ~ 7900 3150
+Wire Wire Line
+	7700 2450 7700 2400
+Wire Wire Line
+	7700 2400 7900 2400
+Wire Wire Line
+	7900 2400 7900 2450
+$Comp
+L +5V #PWR?
+U 1 1 53C6A5F8
+P 7700 2400
+F 0 "#PWR?" H 7700 2490 20  0001 C CNN
+F 1 "+5V" H 7700 2490 30  0000 C CNN
+F 2 "~" H 7700 2400 60  0000 C CNN
+F 3 "~" H 7700 2400 60  0000 C CNN
+	1    7700 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 4200 5850 4200
+Wire Wire Line
+	5850 4200 5850 4150
+$Comp
+L +5V #PWR?
+U 1 1 53C6A630
+P 5850 4150
+F 0 "#PWR?" H 5850 4240 20  0001 C CNN
+F 1 "+5V" H 5850 4240 30  0000 C CNN
+F 2 "~" H 5850 4150 60  0000 C CNN
+F 3 "~" H 5850 4150 60  0000 C CNN
+	1    5850 4150
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5700 3750
+NoConn ~ 5700 4050
+Wire Wire Line
+	5700 3900 6050 3900
+Wire Wire Line
+	6050 3900 6050 4000
+$Comp
+L GND #PWR?
+U 1 1 53C6A662
+P 6050 4000
+F 0 "#PWR?" H 6050 4000 30  0001 C CNN
+F 1 "GND" H 6050 3930 30  0001 C CNN
+F 2 "~" H 6050 4000 60  0000 C CNN
+F 3 "~" H 6050 4000 60  0000 C CNN
+	1    6050 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 5800 4800 5900
+Wire Wire Line
+	4800 5900 4950 5900
+Wire Wire Line
+	4650 5800 4650 6050
+NoConn ~ 4950 5800
+NoConn ~ 5100 5800
+Text GLabel 4950 6050 2    60   BiDi ~ 0
+I2CSCL
+Wire Wire Line
+	4650 6050 4950 6050
+Text GLabel 4950 5900 2    60   BiDi ~ 0
+I2CSDA
+$EndSCHEMATC
