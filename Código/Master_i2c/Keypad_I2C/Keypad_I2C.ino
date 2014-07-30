@@ -19,7 +19,7 @@ char keys[ROWS][COLS] = {
   {'1','2','3','A'},
   {'4','5','6','B'},
   {'7','8','9','C'},
-  {'#','0','*','D'}
+  {'*','0','#','D'}
 };
 // Connect keypad ROW0, ROW1, ROW2 and ROW3 to these Arduino pins.
 byte rowPins[ROWS] = { 2, 3, 4, 5 }; 
